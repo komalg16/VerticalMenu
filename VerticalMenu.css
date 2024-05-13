@@ -1,0 +1,76 @@
+
+/* a:hover
+{
+    text-decoration:none;
+} */
+
+/* h1:hover a
+{
+    color: red;
+} */
+
+/* div:hover a
+{
+    color: red;
+    text-decoration: none;
+    --------------------------------------------------------
+} */
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(./dog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+nav
+{
+    background-color: rgba(154, 87, 6, 0.139);
+    width: 50%;
+    height: 90vh;
+    
+}
+
+#cant
+{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+a
+{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 20px;
+    display: flex;
+}
+
+a:hover
+{
+    background-color: burlywood;
+}
+
+#menu
+{
+    padding:0;
+    margin: 0;
+    list-style-type: none;
+    background-color: brown;
+    position:absolute;
+    top:0%;
+    left: 100%;
+    display: none;
+}
+
+#drop
+{
+    position: relative;
+}
+#drop:hover #menu
+{
+    display: block;
+}
